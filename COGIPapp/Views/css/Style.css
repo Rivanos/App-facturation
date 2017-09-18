@@ -1,26 +1,38 @@
   .block {
   border: 1px solid black;
   border-radius: 10px 10px 10px 10px;
-  background-color: blue;
+  background-color: #ffd2da;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: #ffd2da;
+  color: black;
+  border: 1px solid #b2868e;
 }
 a {
   color: black;
+}
+a:hover {
+  color: black;
+}
+.list-group {
+  margin-bottom: 0px;
 }
 
 #smoothe {
   display: flex;
   justify-content: space-around;
 }
-
-
+.titre {
+  color: #664c51;
+}
 /* CSS des societes.*/
 
 .well {
   min-height: 20px;
   padding: 0px;
   margin-bottom: 20px;
-  background-color: #D9D9D9;
-  border: 1px solid #D9D9D9;
+  background-color: #ffd2da;
+  border: 1px solid #ffd2da;
   border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
@@ -59,7 +71,7 @@ p {
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;
-  border: 6px solid #D9D9D9;
+  border: 6px solid #ffd2da;
   border-radius: 15px;
   -webkit-transition: border .2s ease-in-out;
   -o-transition: border .2s ease-in-out;
@@ -95,4 +107,64 @@ hr:after {
 }
 .table {
   width: auto;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+footer{
+	background-color:#222222;
+    padding: 60px 0px;
+}
+
+footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:50px;
+}
+
+footer ul li{
+    float:left;
+}
+
+footer ul li a{
+	color:#b1aca1;
+    padding:20px;
+}
+
+footer ul li a:hover{
+	color:#7dabdb;
+	text-decoration:none;
+}
+
+.footer-top{
+	padding-bottom:50px;
+}
+
+.footer-top .fa{
+    font-size:18px;
+    color: #FFF;
+    padding-right:10px;
+}
+
+.footer-top a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+    color:#7dabdb;
+}
+
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+	font-size:12px;
+	padding:15px 0 10px 0;
+}
+.footer {
+
 }
